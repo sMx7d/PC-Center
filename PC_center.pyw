@@ -9,8 +9,8 @@ import pyautogui
 
 colMonitoredEvents = win32com.client.Dispatch("WbemScripting.SWbemLocator").ConnectServer(".", "root\cimv2").ExecNotificationQuery("Select * from Win32_PowerManagementEvent")
 
-User_Chat_id = (723051294)
-bot = telebot.TeleBot('5095000792:AAGXUbErgVGOicujHVvrtAYiSF7zp4oeRSA')
+User_Chat_id = (YOUR_CHAT_ID)
+bot = telebot.TeleBot('TOKEN')
 notfication = True
 
 
@@ -169,7 +169,7 @@ if __name__ == "__main__":
 
 
 
-
+#it works but i don't want it anymore (:
 #while True:
 #    try:
 #        if notfication == True:
